@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Пример формы регистрации сайта</title>
+</head>
+<body>
+    <h2>Пример формы регистрации сайта</h2>
+    <form action="#" method="post">
+        <label for="login">Логин:</label><br>
+        <input type="text" id="login" name="login"><br><br>
+
+        <label for="password">Пароль:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="url">URL-адрес сайта:</label><br>
+        <input type="url" id="url" name="url" placeholder="http://"><br><br>
+
+        <label for="site-name">Название сайта:</label><br>
+        <input type="text" id="site-name" name="site-name"><br><br>
+
+        <label for="description">Описание сайта:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+
+        <label for="topic">Тема сайта:</label><br>
+        <select id="topic" name="topic">
+            <option value="">Тема не выбрана</option>
+            <!-- Добавьте другие варианты темы здесь -->
+        </select><br><br>
+
+        <label for="banner">Баннер 88x31:</label><br>
+        <input type="file" id="banner" name="banner"><br><br>
+
+        <button type="reset">Очистить</button>
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>

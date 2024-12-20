@@ -1,0 +1,187 @@
+h2 {
+    text-align: center;        /* Центрируем заголовок по горизонтали */
+    color: blue;               /* Устанавливаем синий цвет текста */
+    letter-spacing: 10px;      /* Добавляем пробел между буквами (можно настроить размер) */
+    font-family: "Times", sans-serif; /* Шрифт */
+    font-size: 35px; /* Увеличенный шрифт */
+}
+
+.T{
+    text-decoration: underline wavy red; /* Волнистая линия под буквой T */
+
+}
+.first-line {
+    background-color: lightsteelblue; /* Голубой фон для всей строки */
+    font-family: "Arial", sans-serif; /* Шрифт для текста */
+    padding: 10px; /* Отступы внутри параграфа */
+}
+
+.html {
+    font-weight: bold; /* Жирный шрифт */
+}
+
+.tables {
+    text-transform: uppercase; /* Верхний регистр */
+    font-style: italic; /* Курсив */
+    font-size: 1.5em; /* Увеличенный шрифт */
+}
+
+.second-third-line {
+    font-family: Arial, sans-serif; /* Шрифт для всего абзаца */
+    line-height: 1.5; /* Высота строки для читаемости */
+    text-align: right;
+}
+
+.second-line {
+    background-color: yellow; /* Желтый фон */
+    text-decoration: underline; /* Подчеркивание */
+    font-family: "Times New Roman", Times, serif; /* Шрифт Times New Roman */
+    font-size: 18px; /* Размер шрифта */
+}
+
+.third-line {
+    background-color: #d3d3d3; /* Серый фон */
+    font-family: "Roboto", sans-serif; /* Шрифт Arial */
+    font-size: 14px; /* Размер шрифта */
+}
+
+h3 {
+    color: blue;               /* Устанавливаем синий цвет текста */
+    font-family: Arial, sans-serif; /* Шрифт */
+}
+
+.description {
+    background-color: purple;
+    font-style: italic; /* Курсив */
+    font-weight: bold;
+    font-size: 20px; /* Размер шрифта */
+}
+
+.must {
+    text-decoration: underline; /* Подчеркивание */
+}
+.sixth_a{
+    text-align: center;
+}
+
+.six-line{
+    background-color: #d3d3d3;
+}
+
+.table1{
+    font-style: italic; 
+    text-decoration: underline;
+    font-family: "Helvetica", sans-serif; /* Шрифт Arial */
+}
+
+.table2{
+    color: blue;
+    text-decoration: underline; /* Подчеркивание */
+}
+
+.begin{
+    text-transform: uppercase; /* Верхний регистр */
+}
+
+.all1{
+    color: blue;
+    font-style: italic; /* Курсив */
+    font-weight: bold;
+}
+
+.separate{
+    color: red;
+    font-style: italic; /* Курсив */
+    font-weight: bold;
+}
+
+.table_name{
+    text-align: right;
+    font-weight: bold;
+}
+
+.math_name{
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.table table {
+    border: 1px solid black; /* Граница вокруг всей таблицы */
+    width: 100%;
+    }
+    .table th, .table td {
+        border: 1px solid grey; /* Устанавливает границу для ячеек */
+        padding: 8px; /* Добавляет немного отступов внутри ячеек */
+}
+
+.field11 {
+    font-family: Bookman, sans-serif; /* Шрифт для текста */
+    font-weight: bold; /* Жирный шрифт */
+    font-style: italic; /* Курсив */
+    color: black; /* Черный цвет текста */
+    text-align: left; /* Выравнивание по левой стороне */
+}
+
+/* Стили для второго поля, где (a+b)^2 */
+.field12 {
+    color: blue; /* Синий цвет текста */
+    font-weight: bold; /* Жирный шрифт */
+    text-align: left; /* Выравнивание по левой стороне */
+    text-decoration: underline wavy red; /* Волнистая линия под текстом */
+}
+
+.field21{
+    background-color: black;
+    color: white; 
+    font-family: Arial, sans-serif; /* Шрифт Arial */
+    font-weight: bold; /* Жирный шрифт */
+    text-align: center; /* Выравнивание по центру */
+}
+
+.field22{
+    color: black; /* Черный цвет текста */
+    font-weight: bold; /* Жирный шрифт */
+    text-align: center; /* Выравнивание по центру */
+}
+
+.field31{
+    background-color: aqua;
+    color:blue;
+    font-weight: bold; /* Жирный шрифт */
+    text-align: right; /* Выравнивание по центру */
+}
+
+.field32{
+    color:blue;
+    font-weight: bold;
+    text-align: right;
+}
+
+.field41{
+    background-color: deeppink;
+    color: black;
+    font-weight: bold;
+    font-style: italic; /* Курсив */
+    text-decoration: underline; /* Подчеркивание */
+    text-align: left; /* Выравнивание по центру */
+}
+
+.field42{
+    font-weight: bold; /* Жирный шрифт */
+    text-align: left; 
+}
+
+.field51{
+    background-color: yellow;
+    font-weight: bold;
+    letter-spacing: 5px; 
+    text-align: center; 
+}
+
+.field52{
+    color: blue;
+    text-align: center;
+}

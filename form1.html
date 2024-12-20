@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма1</title>
+</head>
+<body>
+    <h1>ЗАО Птицефабрика №1</h1>
+    <form>
+        <label for="surname">Фамилия</label>
+        <input type="text" id="surname" name="surname"><br><br>
+        
+        <label for="initials">Инициалы</label>
+        <input type="text" id="initials" name="initials"><br><br>
+        
+        <label for="password">Пароль</label>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <label for="address">Адрес получателя</label>
+        <input type="text" id="address" name="address"><br><br>
+        
+        <label for="quantity">Количество</label>
+        <input type="number" id="quantity" name="quantity"><br><br>
+        
+        <label for="type">Тип</label>
+        <select id="type" name="type">
+            <option>Куриные</option>
+            <option>Утиные</option>
+        </select>
+        
+        <select id="quality" name="quality">
+            <option>Отборные</option>
+            <option>Обычные</option>
+        </select><br><br>
+        
+        <p>Доставка</p>
+        <input type="radio" id="mail" name="delivery" value="Почтой">
+        <label for="mail">Почтой</label>
+        
+        <input type="radio" id="email" name="delivery" value="Электронно">
+        <label for="email">Электронно</label>
+        
+        <input type="radio" id="courier" name="delivery" value="Курьером">
+        <label for="courier">Курьером</label><br><br>
+        
+        <input type="checkbox" id="invoice" name="invoice">
+        <label for="invoice">Требуется накладная</label><br><br>
+        
+        <label for="info">Дополнительная информация</label><br>
+        <textarea id="info" name="info" rows="4" cols="50"></textarea><br><br>
+        
+        <button type="submit">Заказать</button>
+        <button type="reset">Отменить</button>
+    </form>
+</body>
+</html>
